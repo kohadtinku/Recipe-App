@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url("./images/food.avif");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  color: white;
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  /* justify-content: start; */
+  font-size: 16px;
+  background: transparent;
+}
+img,
+svg {
+  vertical-align: ce;
+  height: 350px;
+  width: 350px;
+  border-radius: 12px;
+}
+.text {
+  /* height: 50px; */
+  width: auto;
+}
+.box {
+  margin-right: 45px;
+}
+.btn {
+  display: flex;
+  margin-left: 50%;
+  margin-top: 100px;
+  color: white;
+}
+label {
+  font-size: 22px;
+  font-weight: 600;
+}
+p {
+  font-size: 20px;
+}
+.nav {
+  width: 88px;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.nav:hover {
+  background-color: aquamarine;
+  color: red;
+}
+/* @media only screen and (max-width: 768) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+button:hover {
+  background-color: aquamarine;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .btn {
+    display: flex;
+    margin-right: 100%;
+  }
+}
+@media (max-width: 320px) {
+  h1 {
+    font-size: 15px;
+  }
+  label {
+    font-size: 15px;
+  }
+  p {
+    font-size: 13px;
+  }
+  img,
+  svg {
+    vertical-align: ce;
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+  }
+  .btn {
+    display: flex;
+    margin-right: 100%;
+  }
+}
+@media (max-width: 375px) {
+  img,
+  svg {
+    vertical-align: ce;
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+    margin-left: 50px;
+  }
+  .container {
+    font-size: 13px;
+  }
+  .btn {
+    display: flex;
+    margin-right: 100%;
+  }
+}
+@media (max-width: 425px) {
+  img,
+  svg {
+    vertical-align: ce;
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+    margin-left: 50px;
+  }
+  .container {
+    font-size: 13px;
+    
+  }
+  .text{
+    margin-top: 10px;
+  }
+  .btn {
+    display: flex;
+    margin-right: 100%;
+  }
+}
+span{
+  font-size: 26px;
+  color: red;
+}
